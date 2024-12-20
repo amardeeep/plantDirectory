@@ -1,0 +1,26 @@
+.nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    position: static;
+    min-width: 100vw
+}
+.logo{
+    max-width: 25vw;
+    max-height: 25vh;
+    align-self: center;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}

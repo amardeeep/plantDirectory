@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import {Link} from 'react-router-dom'
-import './App.css'
+import  app from'./App.module.css'
 import Plant from './Plant'
 function App() {
   const usePlants=()=>{
@@ -36,17 +36,15 @@ console.log(plants)
   
   return (
     <>
-      <nav>
-        <div className="logo">
-          <img src="" alt="" />
-        </div>
-        <div className="links">
-          <Link to='/'>Collections</Link>
+      <nav className={app.nav}>
+        <img src='src/assets/logo.jpg' alt="" className={app.logo}/>
+        <div className={app.links}>
+          <Link to='/'>Almanac</Link>
           <Link to='/about'>About</Link>
         </div>
       </nav>
       <main>
-        <header>Plants Heading</header>
+        
         <section>
           {plants.map((plant)=>{
             return <Plant plant={plant} key={plant.id}></Plant>
