@@ -4,7 +4,7 @@ function About (){
     return (
         <div className={about.root}>
           <nav className={about.nav}>
-            <img src='src/assets/logo.jpg' alt="" className={about.logo}/>
+            <img src='https://drive.google.com/file/d/1143lrBQxCyh6OCOLTxWZHvg_izLfuaoB/view?usp=drive_link' alt="" className={about.logo}/>
             <div className={about.links}>
                 <Link to='/'>Almanac</Link>
                 <Link to='/about'>About</Link>
