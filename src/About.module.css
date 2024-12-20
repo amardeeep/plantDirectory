@@ -3,10 +3,9 @@
     flex-direction: column;
     justify-content: center;
     padding: 10px;
-    position: sticky;
     min-width: 100vw;
+    position: sticky;
     top: 0px;
-    background-color: #F8EEE2;
 }
 .logo{
     max-width: 25vw;
@@ -20,6 +19,11 @@
     gap: 10px;
     font-size: larger;
 }
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 section{
     display: flex;
     flex-direction: column;
@@ -27,16 +31,12 @@ section{
     justify-content: center;
     align-items: center;
 }
+.root{
+    min-height: 100vh;
+}
 .footer{
     text-align: center;
     font-size: larger;
-}
-.loading{
-    display: flex;
-    flex-direction:row;
-    justify-content: center;
-    font-size: x-large;
-    align-items: center ;
-    text-align: center;
-    min-width: 100vw;
+    position: sticky;
+    bottom: 0px;
 }

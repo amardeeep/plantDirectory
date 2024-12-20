@@ -28,7 +28,7 @@ function App() {
 const {plants,error,loading}=usePlants();
 console.log(plants)
   if(loading){
-    return(<p> Loading ....</p>)
+    return(<p className={app.loading}> Loading ....</p>)
   }
   if(error){
     return( <p>An Unexpected Error has occured</p> )
@@ -51,8 +51,8 @@ console.log(plants)
           })}
         </section>
       </main>
-      <footer>
-        Made with Love and React
+      <footer className={app.footer}>
+        Made with Love and <a href="https://react.dev/">React</a>
       </footer>
     </>
   )
