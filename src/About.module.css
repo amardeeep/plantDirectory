@@ -37,6 +37,23 @@ section{
 .footer{
     text-align: center;
     font-size: larger;
-    position: sticky;
-    bottom: 0px;
+}
+header{
+    font-size: xx-large;
+}
+section{
+    max-width: 40vw;
+    padding: 20px;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }

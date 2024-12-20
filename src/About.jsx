@@ -11,9 +11,10 @@ function About (){
             </div>
             </nav>
              <main>
-                <header>About Heading</header>
+                <header>About Avinya</header>
                  <section>
-                     About Description
+                 The project is named as avinya ,which means innovation and technology, 
+                 This website helps a person to get the information about plants and helps to grow the nature well. Exploring and appreciating the exciting world of plants is our mission. 
                 </section>
             </main>
             <footer className={about.footer}>
