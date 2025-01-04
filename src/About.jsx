@@ -1,10 +1,11 @@
 import {Link} from 'react-router-dom'
 import about from './About.module.css'
+import logo from '/logo.jpg?url'
 function About (){
     return (
         <div className={about.root}>
           <nav className={about.nav}>
-            <img src='../public/logo.jpg' alt="Logo Goes Here!" className={about.logo}/>
+            <img src={logo} alt="Logo Goes Here!" className={about.logo}/>
             <div className={about.links}>
                 <Link to='/'>Almanac</Link>
                 <Link to='/about'>About</Link>

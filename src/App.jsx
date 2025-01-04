@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import {Link} from 'react-router-dom'
 import  app from'./App.module.css'
 import Plant from './Plant'
+import logo from '/logo.jpg?url'
 function App() {
   const usePlants=()=>{
     const [plants,setPlants]=useState(null);
@@ -37,7 +38,7 @@ console.log(plants)
   return (
     <>
       <nav className={app.nav}>
-        <img src='../public/logo.jpg' alt="Logo Goes Here!" className={app.logo}/>
+        <img src={logo} alt="Logo Goes Here!" className={app.logo}/>
         <div className={app.links}>
           <Link to='/'>Almanac</Link>
           <Link to='/about'>About</Link>
