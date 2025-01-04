@@ -37,7 +37,7 @@ console.log(plants)
   return (
     <>
       <nav className={app.nav}>
-        <img src='public/assets/logo.jpg' alt="Logo Goes Here!" className={app.logo}/>
+        <img src='public/logo.jpg' alt="Logo Goes Here!" className={app.logo}/>
         <div className={app.links}>
           <Link to='/'>Almanac</Link>
           <Link to='/about'>About</Link>
